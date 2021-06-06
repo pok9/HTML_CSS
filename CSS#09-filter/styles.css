@@ -1,0 +1,22 @@
+body{
+    background-color: #5b5b5b;
+}
+
+.image1{
+    
+    filter: sepia(100%);
+}
+
+.image2{
+  
+    filter: grayscale(100%);
+}
+
+.image3{
+    
+    filter: blur(10px);
+}
+
+img{
+    width: 50%;
+}
