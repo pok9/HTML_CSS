@@ -1,0 +1,15 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*3แถว ขนาด 1fr*/
+    column-gap: 20px; /*ระยะห่างแนวตั้ง*/
+    row-gap: 20px; /*ระยะห่างแนวนอน*/
+    justify-items: center; /*จัดเรียงภายใน */
+    align-items: center; /*การจัดเรียงในแนวตั้ง*/
+}
+.content{
+    background-color: gold;
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}

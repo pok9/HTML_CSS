@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100px minmax(250px,auto) 200px;
+    grid-template-areas: /*การจับจองพื้นที่ นับตามแถวและคอลั้ม*/
+        'header header'
+        'leftbar main'
+        'footer footer';
+}
+
+.page-header{
+    grid-area: header;
+} 
+
+.page-footer{
+    grid-area: footer;
+}
+
+.page-leftbar{
+    grid-area: leftbar;
+}
+
+.page-main{
+    grid-area: main;
+}
+
+.content{
+    background-color: gold;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
